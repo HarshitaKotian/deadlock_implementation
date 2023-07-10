@@ -243,17 +243,7 @@ void keyboard( unsigned char key, int x, int y )
 void delay(){
 int i=3900010;
 while(i--);
-}
-
-
-//code addded
-
-//up to here
-	
-
-	
-
-    	
+}    	
 void mydisplay(){
 	
     	glClear(GL_COLOR_BUFFER_BIT);
@@ -641,10 +631,7 @@ void mydisplay(){
 	
 	}
 	 if(f==7){
-		 glClear(GL_COLOR_BUFFER_BIT);
-	
-    
-	
+	glClear(GL_COLOR_BUFFER_BIT);
 	glBegin(GL_QUADS);
     	glColor3f(0,0,0);
     	glVertex2f(0,0);
